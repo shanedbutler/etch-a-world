@@ -92,8 +92,8 @@ const App = () => {
       onKeyDown={handleKeyDown}
       style={{ outline: 'none' }}
     >
-      <h1 className="text-2xl font-bold mb-4">Floorplan Drawing Tool</h1>
-      <canvas ref={canvasRef} width={600} height={400} className="bg-white shadow-md border border-gray-300" />
+      <h3 className="text-xl font-bold mb-4 text-black">Floorplan Drawing Tool</h3>
+      <canvas ref={canvasRef} width={800} height={400} className="bg-white shadow-md border border-gray-300 m-5" />
       <div className="mt-4">
         <input
           type="text"
